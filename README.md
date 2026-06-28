@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📁 Automated File Organizer
 
 ## 📌 Project Description
@@ -96,3 +97,7 @@ Files organized successfully!
 ## 👩‍💻 Author
 
 **Anitha Bhavani Jada**
+=======
+# Automated-File-Organizer
+A Python application that automatically organizes files into folders based on their file type.
+>>>>>>> 6a1891ae126b21154ff5eccaeb99f429f3d17c6c
