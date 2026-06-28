@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # 📁 Automated File Organizer
 
 ## 📌 Project Description
 
-The Automated File Organizer is a Python application that automatically organizes files into folders based on their file extensions. It creates folders if they do not exist, moves files into the correct folders, handles duplicate file names, and keeps a log of all file operations.
+The Automated File Organizer is a Python application that automatically organizes files into folders based on their file extensions. It automatically creates folders, moves files into the correct folders, handles duplicate file names, and records all operations in a log file.
 
 ---
 
@@ -14,8 +13,8 @@ The Automated File Organizer is a Python application that automatically organize
 - Move files to the correct folder
 - Handle duplicate file names
 - Skip folders while organizing
-- Log all operations
-- Exception handling for errors
+- Log all file operations
+- Exception handling
 - Menu-driven application
 
 ---
@@ -31,7 +30,7 @@ The Automated File Organizer is a Python application that automatically organize
 
 ## 📂 Project Structure
 
-```
+```text
 FileOrganizer/
 │
 ├── main.py
@@ -39,10 +38,9 @@ FileOrganizer/
 ├── config.py
 ├── logger.py
 ├── utils.py
-├── organizer.log
 ├── README.md
 ├── requirements.txt
-└── test_folder/
+└── .gitignore
 ```
 
 ---
@@ -63,7 +61,7 @@ python main.py
 
 ## 📋 Menu
 
-```
+```text
 1. Organize Files
 2. View Log
 3. Exit
@@ -73,7 +71,7 @@ python main.py
 
 ## 📸 Example Output
 
-```
+```text
 photo.jpg -> Images/photo.jpg
 resume.pdf -> Documents/resume.pdf
 movie.mp4 -> Videos/movie.mp4
@@ -86,18 +84,14 @@ Files organized successfully!
 ## 🎯 Future Improvements
 
 - GUI using Tkinter
-- Organize files by date
 - Organize files by size
-- Folder selection using file dialog
-- Progress bar
+- Organize files by date
+- Search files
 - Undo last operation
+- Folder selection using file dialog
 
 ---
 
 ## 👩‍💻 Author
 
 **Anitha Bhavani Jada**
-=======
-# Automated-File-Organizer
-A Python application that automatically organizes files into folders based on their file type.
->>>>>>> 6a1891ae126b21154ff5eccaeb99f429f3d17c6c
