@@ -1,4 +1,5 @@
 # 📁 Automated File Organizer
+A Python application that automatically organizes files into folders based on their file types. The application creates folders automatically, handles duplicate file names, logs all file operations, and provides a simple menu-driven interface.
 
 ## 📌 Project Description
 
@@ -89,6 +90,15 @@ Files organized successfully!
 - Search files
 - Undo last operation
 - Folder selection using file dialog
+## 📸 Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/menu.png)
+
+### Organized Files
+
+![Organized Files](screenshots/organized-files.png)
 
 ---
 
